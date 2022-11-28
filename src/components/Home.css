@@ -1,0 +1,33 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size:1rem;
+  }
+  
+  button:hover{
+    background-color: rgb(105, 198, 238);
+    color: rgba(17, 5, 5, 0.881);
+    box-shadow: 5xp, 5px, 10px,0px;
+    transition:0.5s ;
+   }
+   button{
+    background-color: transparent;
+    color: rgb(120, 187, 236);
+    border-radius: 3px solid royalblue;
+    font-size: 25px;
+
+  }
